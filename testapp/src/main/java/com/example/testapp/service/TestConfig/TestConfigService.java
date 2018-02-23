@@ -1,10 +1,11 @@
-package com.example.testapp.configuration;
+package com.example.testapp.service.TestConfig;
 
+import com.example.testapp.configuration.TestConfig.FooProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ConfigService {
+public class TestConfigService {
     @Autowired
     private FooProperties fooProperties;
 

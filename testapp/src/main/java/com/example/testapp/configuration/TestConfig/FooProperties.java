@@ -1,4 +1,4 @@
-package com.example.testapp.configuration;
+package com.example.testapp.configuration.TestConfig;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
